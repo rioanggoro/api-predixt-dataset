@@ -32,8 +32,8 @@ def adjust_price_based_on_condition(item_name, base_price):
     }
     # Gender adjustment
     gender_keywords = {
-        "pria": 1.0,
-        "wanita": 1.1
+        "pria, laki-laki,cowo, cowok": 1.0,
+        "wanita, perempuan,cewek,cewe": 1.0
     }
     adjustment_multiplier = 1.0
     gender_multiplier = 1.0
